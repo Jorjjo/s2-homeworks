@@ -1,8 +1,8 @@
-import React from 'react'
-import s from './Message.module.css'
+import React from 'react';
+import s from './Message.module.css';
 
 // нужно создать правильный тип вместо any
-export type MessagePropsType = any
+export type MessagePropsType = any;
 
 // нужно отобразить приходящие данные
 const Message = (props: MessagePropsType) => {
@@ -21,7 +21,10 @@ const Message = (props: MessagePropsType) => {
 
                         {/**/}
                     </div>
-                    <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
+                    <pre
+                        id={'hw1-text-' + props.message.id}
+                        className={s.messageText}
+                    >
                         {/*создаёт студент*/}
 
                         {/**/}
@@ -34,7 +37,7 @@ const Message = (props: MessagePropsType) => {
                 {/**/}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Message
+export default Message;
