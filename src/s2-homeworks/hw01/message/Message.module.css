@@ -15,7 +15,7 @@
 }
 
 .text {
-    z-index: 1000;
+    z-index: 100;
     position: relative;
     height: fit-content;
     width: fit-content;
