@@ -1,0 +1,24 @@
+.radio {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    accent-color: black;
+    margin-right: 13px;
+}
+
+.radio::before {
+}
+
+.radio:checked::before {
+   border: 3px solid #007bff; 
+}
+
+.label {
+    color: black;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
