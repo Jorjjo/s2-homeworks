@@ -1,34 +1,64 @@
 .item {
-    background-color: rgb(112, 112, 207);
+    font-size: 16px;
 }
 
 .item:last-of-type {
 }
 
 .users {
-    border: 2px solid black;
-    width: 400px;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.users tbody tr td {
+    padding: 16px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.users tbody tr:last-child td {
+    border-bottom: none;
 }
 
 .buttonsContainer {
     display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
+    justify-content: end;
+    gap: 12px;
+    margin-bottom: 18px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .thead {
-    height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #e5e5e5;
+}
+
+.thead td {
+    padding: 11px 17px;
+    text-align: left;
 }
 
 .nameCol {
-    background-color: rgb(201, 77, 77);
+    width: 50%;
 }
 
 .ageCol {
-    background-color: rgb(67, 138, 138);
+}
+
+.thead tr:first-child td:first-child {
+    border-top-left-radius: 4px;
+}
+
+.thead tr:first-child td:last-child {
+    border-top-right-radius: 4px;
+}
+
+.users tbody td:nth-child(2) {
+    font-weight: 600;
 }
