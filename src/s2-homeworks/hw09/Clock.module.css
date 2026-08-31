@@ -1,0 +1,23 @@
+.buttonsContainer {
+    display: flex;
+    gap: 21px;
+}
+
+.clock {
+    position: relative;
+}
+
+.watch {
+    margin-bottom: 55px;
+}
+
+.watch strong {
+    cursor: pointer;
+}
+
+.more {
+    position: absolute;
+    font-size: 16px;
+    top: 32px;
+    color: #00000080;
+}
