@@ -1,7 +1,7 @@
 import React from 'react';
 import { Slider, SliderProps } from '@mui/material';
 
-const SuperRange = ({ value, onChange }: SliderProps) => {
+const SuperRange = ({ value, onChange, ...rest }: SliderProps) => {
     return (
         <Slider
             color='secondary'
