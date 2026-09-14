@@ -9,7 +9,7 @@ const SuperRange: React.FC<SliderProps> = (props) => {
     return (
         <Slider
             color='secondary'
-            disableSwap={true}
+            // disableSwap={true}
             sx={
                 {
                     // стили для слайдера // пишет студент
